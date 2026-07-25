@@ -1,0 +1,12 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.comscore.com/
+url: https://trust.comscore.com/
+certifications:
+- ISO 27001
+evidence:
+- source: https://trust.comscore.com/
+  keywords:
+  - iso/iec 27001
+  - trust center

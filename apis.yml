@@ -1,8 +1,28 @@
 aid: comscore
 name: Comscore
-description: 'Comscore is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Comscore is a cross-platform media measurement and audience analytics company
+  that provides a trusted, independent currency for planning, transacting, and
+  evaluating media across digital, social, television, streaming/CTV, movies, and
+  programmatic advertising. Its products measure audiences, brands, and consumer
+  behavior for media buyers and sellers, spanning advertising effectiveness, CTV
+  and video measurement, programmatic targeting (Proximic by Comscore), social
+  intelligence, and box-office tracking. Comscore publishes first-party audience-
+  measurement SDKs for Android, iOS/tvOS, and Flutter used to instrument content
+  and apps, and maintains an ISO/IEC 27001-certified trust and security program.
+  It does not currently expose a public self-serve REST API or developer portal.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://logo.clearbit.com/comscore.com
 url: https://raw.githubusercontent.com/api-evangelist/comscore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Cloud Saas
+- Media Measurement
+- Audience Analytics
+- Advertising
+- Programmatic
+- Streaming
+- Cross-Platform Measurement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/comscore-trust-center.yml
+- type: DomainSecurity
+  url: security/comscore-domain-security.yml
+- type: Compliance
+  url: https://trust.comscore.com/
 - type: Website
   url: http://www.comscore.com
+- type: Blog
+  url: https://www.comscore.com/Insights/Blog
+- type: Support
+  url: https://www.comscore.com/layout/set/popup/Request/Contact/Contact-Us
+- type: GitHubOrganization
+  url: https://github.com/comscore
+- type: PrivacyPolicy
+  url: https://www.comscore.com/About/Privacy-Policy
+- type: TermsOfService
+  url: https://www.comscore.com/About/Terms-of-Service
+- type: Packages
+  url: packages/comscore-packages.yml
+- type: SDKs
+  url: packages/comscore-packages.yml
+- type: LLMsTxt
+  url: llms/comscore-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

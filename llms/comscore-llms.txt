@@ -1,0 +1,25 @@
+# Comscore
+
+> Comscore is a cross-platform media measurement and audience analytics company that provides a trusted currency for planning, transacting, and evaluating media across digital, social, television, streaming/CTV, and programmatic channels. It publishes first-party audience-measurement SDKs but does not expose a public REST API.
+
+## Company
+- [Comscore](https://www.comscore.com): Cross-platform measurement company.
+- [About](https://www.comscore.com/About): Company overview.
+- [Products](https://www.comscore.com/Products): Advertising, CTV, Digital, Movies, Programmatic Targeting (Proximic), Social, and Television measurement solutions.
+- [Insights / Blog](https://www.comscore.com/Insights/Blog): Research and industry insights.
+- [Press Room](https://www.comscore.com/About/Press-Room): News and announcements.
+
+## Measurement SDKs
+- [ComScore-Android](https://github.com/comscore/ComScore-Android): Audience measurement library for Android.
+- [ComScore-iOS-watchOS-tvOS](https://github.com/comscore/ComScore-iOS-watchOS-tvOS): Audience measurement library for iOS, iPadOS, and tvOS.
+- [Comscore-Swift-Package-Manager](https://github.com/comscore/Comscore-Swift-Package-Manager): Swift Package Manager distribution of the measurement library.
+- [Comscore-Flutter](https://github.com/comscore/Comscore-Flutter): Flutter plugin for audience measurement.
+
+## Trust & Security
+- [Trust Center](https://trust.comscore.com/): Security and compliance posture (ISO/IEC 27001 certified).
+- [Privacy Policy](https://www.comscore.com/About/Privacy-Policy)
+- [Terms of Service](https://www.comscore.com/About/Terms-of-Service)
+
+## Legal
+- [Privacy Policy](https://www.comscore.com/About/Privacy-Policy)
+- [Terms of Service](https://www.comscore.com/About/Terms-of-Service)

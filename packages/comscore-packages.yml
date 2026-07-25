@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/comscore
+note: >-
+  Comscore publishes first-party audience-measurement SDKs (client tagging
+  libraries) via its official GitHub organization. These are measurement
+  instrumentation libraries rather than REST API client libraries; Comscore
+  exposes no public REST API or package on npm/PyPI/Maven Central under an
+  official namespace.
+packages:
+  - language: java
+    platform: android
+    registry: github
+    name: ComScore-Android
+    url: https://github.com/comscore/ComScore-Android
+    description: Comscore library for audience measurement on Android.
+    official: true
+  - language: objective-c
+    platform: ios-ipados-tvos
+    registry: github
+    name: ComScore-iOS-watchOS-tvOS
+    url: https://github.com/comscore/ComScore-iOS-watchOS-tvOS
+    description: Comscore library for audience measurement on iOS, iPadOS and tvOS.
+    official: true
+  - language: swift
+    platform: ios-ipados-tvos
+    registry: swift-package-manager
+    name: Comscore-Swift-Package-Manager
+    url: https://github.com/comscore/Comscore-Swift-Package-Manager
+    install: 'Swift Package Manager: https://github.com/comscore/Comscore-Swift-Package-Manager'
+    description: Swift Package Manager distribution of the Comscore measurement library.
+    official: true
+  - language: dart
+    platform: flutter
+    registry: github
+    name: Comscore-Flutter
+    url: https://github.com/comscore/Comscore-Flutter
+    description: Flutter plugin for Comscore audience measurement.
+    official: true
