@@ -11,6 +11,17 @@ description: >-
   measurement SDKs for Android, iOS/tvOS, and Flutter used to instrument content
   and apps, and maintains an ISO/IEC 27001-certified trust and security program.
   It does not currently expose a public self-serve REST API or developer portal.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
