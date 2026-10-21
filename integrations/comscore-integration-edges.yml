@@ -68,10 +68,60 @@ edges:
   detected_by: sweep-amazon-sp-api-appstore.py
   partner_tier:
   - VERIFIED_PARTNER
+- partner_name: CocoaPods trunk
+  partner: null
+  partner_match: register
+  type: register
+  channel: package-registry
+  relationship: distribution-channel
+  direction: provider-built
+  evidence: https://cocoapods.org/pods/comScore-iOS-SDK
+  category: iOS SDK (CocoaPods)
+  contract_reference:
+    register: CocoaPods trunk (cdn.cocoapods.org Specs; github.com/CocoaPods/Specs)
+    spec_file: null
+    role: cocoapods-publisher
+    registered_name: Rafael Aguilar
+    matched_domain: comscore.com
+    matched_by: domain
+    pods:
+    - pod: comScore-iOS-SDK
+      version: 3.1509.15
+      homepage: https://www.comscore.com
+      deprecated: true
+    signal_note: latest podspec homepage (domain) + authors (name); pods, versions and counts are context
+    detected_by: sweep-mobile-sdk-index.py
+    detected: '2026-10-21'
+  detected_by: sweep-mobile-sdk-index.py
+  first_seen: '2026-10-21'
+- partner_name: Google Play Developer (Google Play SDK Index)
+  partner: google-play
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: Google Play SDK Index
+  evidence: https://play.google.com/sdks/details/com-comscore-android-analytics
+  mirror_of: google-play/integrations/google-play-integration-edges.yml
+  apps:
+  - Comscore Audience Measurement
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: mobile SDK (analytics)
+  publisher_verified:
+  - Registered in Google Play SDK Console
 method: searched
 checked:
 - https://docs.mparticle.com/integrations/comscore/event/
 - https://advertising.amazon.com/partners/directory
 - https://sellercentral.amazon.com/gspn
 - https://sellercentral.amazon.com/selling-partner-appstore
+- https://cdn.cocoapods.org/all_pods.txt
+- https://cert.appdefensealliance.org/certifications
+- https://play.google.com/sdks
+- https://search.maven.org/solrsearch/select
+- google-play/integrations/google-play-integration-edges.yml
 source: https://docs.mparticle.com/integrations/comscore/event/
